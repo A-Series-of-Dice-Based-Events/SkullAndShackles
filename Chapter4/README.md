@@ -1,8 +1,8 @@
-# Second Darkness
+# Title of AP
 
 [A Series of Dice-Based Events Discord](https://discord.gg/UQ8UD3H)
 
-A repository to hold tools for those wishing to run and convert Second Darkness to Pathfinder 2E.
+A repository to hold tools for those wishing to run and convert Title of AP to Pathfinder 2E.
 
 The README.md files can have simple breakdowns of modified DCs for various tasks brought up in the Adventure while the individual folders can hold the files for the monster/NPC stat blocks.
 
