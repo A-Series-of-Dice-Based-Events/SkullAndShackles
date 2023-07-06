@@ -1,0 +1,775 @@
+{
+  "package": "world.skull-and-shackles-book-5-items",
+  "metadata": {
+    "label": "Skull & Shackles - Book 5 - Items",
+    "type": "Item",
+    "name": "skull-and-shackles-book-5-items",
+    "path": "packs/skull-and-shackles-book-5-items.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-book-5-items",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Aiger's Kiss",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This is a <em>+3 greater striking shortsword</em> when used against creatures native to the material plane. When used against elementals or creatures from the inner planes, it becomes a <em>+3 major striking shortsword</em>, and against fiends, celestials, or creatures from the outer planes, it becomes a <em>+4 major striking shortsword</em>.</p>\n<p dir=\"ltr\"><strong>Activate</strong> <span class=\"pf2-icon\">D</span> Interact; <strong>Frequency </strong>Three times per day; <strong>Effect </strong>The sword casts @UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor} spell, it uses your class DC or your spell DC (whichever is higher). </p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">T</span> Interact; <strong>Frequency </strong>Once per year; <strong>Effect </strong>The sword can be plunged into an extraplanar portal, immediately placing the portal under the effects of the @UUID[Compendium.pf2e.spells-srd.XZE4BawIlTf88Yl9]{Dimensional Lock} spell so long as the weapon is left in the portal.</p>\n<p><strong id=\"docs-internal-guid-5d022875-7fff-55a6-197c-6483b65bd49a\">Destruction </strong>If Aiger’s Kiss is used to attempt to seal a planar rift from the Material Plane to an extraplanar realm under @UUID[Compendium.pf2e.deities.GX6PF9ifR47Xyjg9]{Norgorber}’s control, the sword is immediately destroyed and the planar rift is unharmed—in fact, doing so immediately summons the herald of Norgorber to the site to claim the fragments of the sword and punish those who destroyed it.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 20
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "artifact",
+            "finesse",
+            "invested",
+            "magical",
+            "versatile-s"
+          ],
+          "rarity": "unique",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "shortsword",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "sword",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 3
+        },
+        "strikingRune": {
+          "value": "greaterStriking"
+        },
+        "specific": {
+          "value": true,
+          "price": {
+            "cp": 0,
+            "sp": 0,
+            "gp": 10000,
+            "pp": 0
+          },
+          "material": {
+            "precious": null
+          },
+          "runes": {
+            "potency": 3,
+            "striking": "greaterStriking"
+          }
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "vs elementals or fiends, celestials",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684436675127,
+        "modifiedTime": 1686935470651,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "4sqID7jPw0cZulZB"
+    },
+    {
+      "name": "Howling Skull Armor",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+2 resilient studded leather armor</em> is decorated with metal skulls and grants a +2 item bonus to Intimidation checks.</p>\n<p><strong>Activate </strong><span class=\"pf2-icon\">D</span> Interact; <strong>Frequency </strong>Once per day; <strong>Effect </strong>The armor casts a 3rd-level @UUID[Compendium.pf2e.spells-srd.4koZzrnMXhhosn0D]{Fear} spell with a DC of 31.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "value": 2,
+            "type": "item"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 12
+        },
+        "traits": {
+          "value": [
+            "abjuration",
+            "enchantment",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "leather-armor",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 2000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "armor": {
+          "value": 1
+        },
+        "category": "light",
+        "group": "leather",
+        "strength": {
+          "value": 10
+        },
+        "dex": {
+          "value": 4
+        },
+        "check": {
+          "value": -1
+        },
+        "speed": {
+          "value": 0
+        },
+        "potencyRune": {
+          "value": 2
+        },
+        "resiliencyRune": {
+          "value": "resilient"
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684437167133,
+        "modifiedTime": 1686935470653,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "UcSbYlL6MjgkG10d"
+    },
+    {
+      "name": "Mariner's Eye Patch",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This pirate’s eye patch features jewels set into a leather patch. While wearing the eye patch, you gain a +2 item bonus to Perception checks.</p>\n<p><strong>Activate </strong><span class=\"pf2-icon\">D</span> Interact; <strong>Frequency </strong>Once per day; <strong>Effect </strong>The eye patch casts a 5th-level @UUID[Compendium.pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See Invisibility} spell.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "perception",
+            "value": 2,
+            "type": "item"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 11
+        },
+        "traits": {
+          "value": [
+            "divination",
+            "evocation",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 1400
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worneyepiece"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684437345289,
+        "modifiedTime": 1686935470654,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "nuY8yhu995is33zG"
+    },
+    {
+      "name": "Mutineer's Bane Earring",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This magic earring helps the wearer begin to hear the first mutterings of mutiny.</p>\n<p dir=\"ltr\"><strong>Activate</strong> <span class=\"pf2-icon\">T</span> Interact; <strong>Frequency </strong>Once per day; <strong>Effect </strong>All creatures within a 30 foot emanation of the earring are targeted by a 3rd-level @UUID[Compendium.pf2e.spells-srd.KHnhPHL4x1AQHfbC]{Mind Reading} spell, and the save DC is 30. If the creature has mutinous thoughts towards the wearer of the earring, they suffer a -2 item penalty on the saving throw.</p>\n<p dir=\"ltr\">If the earring is worn by a commodore, they can use this ability twice per day.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 13
+        },
+        "traits": {
+          "value": [
+            "divination",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684437449593,
+        "modifiedTime": 1686935470657,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "i3ooeRwZNWSiwGEr"
+    },
+    {
+      "name": "Skyrocket Crossbow",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+2 greater striking hand crossbow</em> is decorated with the golden head of an osprey, sea eagle, or other avian creature. </p>\n<p dir=\"ltr\"><strong>Activate</strong> <span class=\"pf2-icon\">D</span> Interact; <strong>Frequency</strong> Three times per day; <strong>Effect </strong>The crossbow casts a 5th-level @UUID[Compendium.pf2e.spells-srd.sxQZ6yqTn0czJxVd]{Fireball} spell using the range of the crossbow, the save DC is 32.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 13
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "fire",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "hand-crossbow",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 2750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 60,
+        "reload": {
+          "value": "1"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 2
+        },
+        "strikingRune": {
+          "value": "greaterStriking"
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684437547780,
+        "modifiedTime": 1686935470658,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "v50HSTVyJzUxftjV"
+    },
+    {
+      "name": "Wondrous Figurine (Silver Raven)",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This statue transforms into a raven made of silver. Upon activating the figurine, you can imprint an image, direction, and distance of an obvious place or landmark well known to you within the raven. Optionally, you can attack a small object or note up to light Bulk to it. The raven does its best to reach the destination; upon arrival, it transforms back into a statue. A silver raven can only be activated once per week and remains in its form for up to 24 hours.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 5
+        },
+        "traits": {
+          "value": [
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684437730254,
+        "modifiedTime": 1686935470659,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "dhdErfGavESRBCV9"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

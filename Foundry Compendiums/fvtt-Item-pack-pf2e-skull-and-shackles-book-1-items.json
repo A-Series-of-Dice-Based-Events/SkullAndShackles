@@ -1,0 +1,585 @@
+{
+  "package": "world.skull-and-shackles-book-1-items",
+  "metadata": {
+    "label": "Skull & Shackles - Book 1 - Items",
+    "type": "Item",
+    "name": "skull-and-shackles-book-1-items",
+    "path": "packs/skull-and-shackles-book-1-items.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-book-1-items",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Besmara's Tricorne",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This black leather tricorne hat is weather-beaten and salt-stained. It grants its wearer a +1 item bonus to Athletic checks to Swim and Sailing Lore checks.</p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">T</span>; <strong>Frequency </strong>once per day; <strong>Effect </strong>By speaking the command word, the hat transforms into a @UUID[Compendium.pf2e.vehicles.l0RfYgabnbNoHnkS]{Rowboat}. The boat disappears upon command, which takes 1 Action, or after 8 hours when it reverts to its hat form. If there are any occupants, they are dumped out.</p>\n<p> </p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 4
+        },
+        "traits": {
+          "value": [
+            "invested",
+            "magical",
+            "transmutation"
+          ],
+          "rarity": "unique",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 75
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornheadwear"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683589614936,
+        "modifiedTime": 1683686763288,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "7YNtEEbVhWrbVUQx"
+    },
+    {
+      "name": "Steadfast Grapple",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This <em>+1 @UUID[Item.JEPgU6PBrtFQaFrf]{Grappling Hook}</em> can be used to automatically hit and attach to any targeted object or structure within range of its 50-foot hempen rope, included in its bulk. Against creatures, the wielder must make a Strike as normal. While a creature is grabbed by this weapon, they take a -1 item penalty to Escape.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 3
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "grapple",
+            "magical",
+            "thrown-10"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "knife",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": null
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683589865091,
+        "modifiedTime": 1683686763289,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "cYHywWxWYt72kg1H"
+    },
+    {
+      "name": "Tidewater Cutlass",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">The blade of this <em>+1 @UUID[Item.TPDOU0NLTQPefUNu]{Cutlass}</em> is spotted with rust, and its basket hilt is cast in the likeness of a grinning skull.</p>\n<p dir=\"ltr\">Once per day, a tidewater cutlass can be used to cast @UUID[Compendium.pf2e.spells-srd.jfVCuOpzC6mUrf6f]{Hydraulic Push}.</p>\n<p><strong id=\"docs-internal-guid-11a518cb-7fff-0138-d341-a2bf511ef3d9\">Activate</strong> <span class=\"pf2-icon\">D</span> (cast a spell)<span class=\"pf2-icon\">;</span> <strong id=\"docs-internal-guid-11a518cb-7fff-0138-d341-a2bf511ef3d9\">Cast </strong><em>hydraulic push</em>, attack +8</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 3
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "forceful",
+            "magical",
+            "sweep"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "sword",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": null
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683591424848,
+        "modifiedTime": 1683686763292,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "H3eWvJ5PoATrPm00"
+    },
+    {
+      "name": "Vindictive Spear",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+1 @UUID[Compendium.pf2e.equipment-srd.qlunQzfnzPQpMG6U]{Returning} trident</em> is carved from the jagged, scrimshaw-carved tusk of a narwhal and attached to a 50-foot length of woven sinew. Ranged attacks made with this weapon while underwater or against an underwater target do not have their range increments halved unlike other ranged weapons.</p>\n<p> </p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 3
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "magical",
+            "thrown-20"
+          ],
+          "rarity": "common",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "trident",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "spear",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d8",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": null
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": "returning"
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683591843914,
+        "modifiedTime": 1683686763294,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "zX9N8yFvPZRkSrPO"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

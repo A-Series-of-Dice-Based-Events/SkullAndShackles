@@ -1,0 +1,897 @@
+{
+  "package": "world.skull-and-shackles-book-2-item",
+  "metadata": {
+    "name": "skull-and-shackles-book-2-item",
+    "label": "Skull & Shackles - Book 2 - Item",
+    "path": "worlds/mummy-mask/packs/skull-and-shackles-book-2-item.db",
+    "private": false,
+    "type": "Item",
+    "system": "pf2e",
+    "flags": {},
+    "packageType": "world",
+    "packageName": "mummy-mask",
+    "id": "world.skull-and-shackles-book-2-item"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Besmara's Bones",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage</strong> must be mounted on a ship</p>\n<p dir=\"ltr\"><strong>Hardness </strong>10; <strong>HP </strong>40 (BT 20)</p>\n<p dir=\"ltr\">Named for the goddess of piracy, strife, and sea monsters, this figurehead must be mounted on the prow of a ship. This figurehead can be used to inflict a curse on an enemy ship.</p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">R</span> (mental, command); <strong>Trigger </strong>The ship this figurehead is mounted on is about to ram another vehicle; <strong>Frequency </strong>once per day; <strong>Effect </strong>When the target vehicle makes a basic Reflex save against your vehicle’s collision DC; the following effects are added.</p>\n<p dir=\"ltr\"><strong>Critical Success </strong>The vehicle and crew are unaffected.<br /><strong>Success </strong>The pilot takes a -1 status penalty to all Sailing Lore checks to pilot the vehicle for 1 round<br /><strong id=\"docs-internal-guid-40d6f523-7fff-067f-66f1-4c4753578bf9\" style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Failure</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The pilot takes a -1 status penalty to all Sailing Lore checks to pilot the vehicle </span>for 1 minute<strong id=\"docs-internal-guid-40d6f523-7fff-067f-66f1-4c4753578bf9\"><br />Critical Failure</strong> As a failure but the penalty is -2</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 7
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "30"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 360
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770261257,
+        "modifiedTime": 1683832986899,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "v6OE5jkVp1oMQPfP"
+    },
+    {
+      "name": "Brine's Sting",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+1 striking rapier </em>is slim with a hilt guard in the shape of a writhing purple sea snake. On a critical hit, the target must succeed at a Fortitude save against your class DC or be sickened 1 until the end of your next turn as salty brine drips into the wound. This is in addition to the weapon's normal critical specialization effect.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": "6"
+        },
+        "traits": {
+          "value": [
+            "deadly-d8",
+            "disarm",
+            "finesse",
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "common",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "rapier",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 240
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "sword",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {
+        "core": {
+          "sourceId": "Item.Q7RUncmc3WLG0eRs"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683769867540,
+        "modifiedTime": 1683832986901,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "Q7RUncmc3WLG0eRs"
+    },
+    {
+      "name": "Buccaneer's Breastplate",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+1 breastplate</em> grants the wearer the ability to walk across waves.</p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">D</span> (interact); <strong>Frequency </strong>once per day; <strong>Effect </strong>You are under the effects of a @UUID[Compendium.pf2e.spells-srd.Seaah9amXg70RKw2]{Water Walk} spell.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 6
+        },
+        "traits": {
+          "value": [
+            "invested",
+            "magical",
+            "transmutation"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "breastplate",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 220
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "armor": {
+          "value": 4
+        },
+        "category": "medium",
+        "group": "plate",
+        "strength": {
+          "value": 16
+        },
+        "dex": {
+          "value": 1
+        },
+        "check": {
+          "value": -2
+        },
+        "speed": {
+          "value": -5
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "resiliencyRune": {
+          "value": null
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770109394,
+        "modifiedTime": 1683832986903,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "Bu9RPTLy37BgTnsD"
+    },
+    {
+      "name": "Captain's Locker (Type 1)",
+      "type": "backpack",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>must be mounted in a vehicle’s cargo deck</p>\n<p dir=\"ltr\">This iron-banded sea chest is 2-½ feet by 3 feet by 4 feet in size and is decorated with chains and brass skulls. The chest has no lock, but any standard lock can be easily attached to its hasp. The chest can be used to store items within it if it is not mounted in a ship. If it is mounted within the cargo hold of a ship or other cargo-carrying vehicle, the chest warps the dimensions of the cargo hold so that it increases the cargo capacity by 15% without changing the weight of the vehicle.</p>\n<p dir=\"ltr\">If the captain’s locker is removed from the cargo area while the hold contains more cargo than it could contain on its own, any excess cargo is forcibly expelled through hatches or other means of egress.</p>\n<p dir=\"ltr\">Type 1; Price 100 gp; increase cargo capacity by 15% / Item 4</p>\n<p dir=\"ltr\">Type 2; Price 350 gp; increase cargo capacity by 25% / Item 7</p>\n<p dir=\"ltr\">Type 3; Price 1,400 gp; increase cargo capacity by 50% / Item 11</p>\n<p><strong id=\"docs-internal-guid-8e8e0eb9-7fff-5bf6-01b7-786dbae86b93\">Type 4; Price 3,000 gp; increase cargo capacity by 75% / Item 13</strong></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 4
+        },
+        "traits": {
+          "value": [
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "13"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Container",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "collapsed": false,
+        "stowing": false
+      },
+      "img": "systems/pf2e/icons/default-icons/backpack.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770459377,
+        "modifiedTime": 1683832986905,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "XbmJbymnoPzgu0S0"
+    },
+    {
+      "name": "Captain's Locker (Type 2)",
+      "type": "backpack",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>must be mounted in a vehicle’s cargo deck</p>\n<p dir=\"ltr\">This iron-banded sea chest is 2-½ feet by 3 feet by 4 feet in size and is decorated with chains and brass skulls. The chest has no lock, but any standard lock can be easily attached to its hasp. The chest can be used to store items within it if it is not mounted in a ship. If it is mounted within the cargo hold of a ship or other cargo-carrying vehicle, the chest warps the dimensions of the cargo hold so that it increases the cargo capacity by 25% without changing the weight of the vehicle.</p>\n<p dir=\"ltr\">If the captain’s locker is removed from the cargo area while the hold contains more cargo than it could contain on its own, any excess cargo is forcibly expelled through hatches or other means of egress.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 7
+        },
+        "traits": {
+          "value": [
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "13"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Container",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "collapsed": false,
+        "stowing": false
+      },
+      "img": "systems/pf2e/icons/default-icons/backpack.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770459377,
+        "modifiedTime": 1683832986907,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "AArupJowWLBo7urS"
+    },
+    {
+      "name": "Captain's Locker (Type 3)",
+      "type": "backpack",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>must be mounted in a vehicle’s cargo deck</p>\n<p dir=\"ltr\">This iron-banded sea chest is 2-½ feet by 3 feet by 4 feet in size and is decorated with chains and brass skulls. The chest has no lock, but any standard lock can be easily attached to its hasp. The chest can be used to store items within it if it is not mounted in a ship. If it is mounted within the cargo hold of a ship or other cargo-carrying vehicle, the chest warps the dimensions of the cargo hold so that it increases the cargo capacity by 50% without changing the weight of the vehicle.</p>\n<p dir=\"ltr\">If the captain’s locker is removed from the cargo area while the hold contains more cargo than it could contain on its own, any excess cargo is forcibly expelled through hatches or other means of egress.<strong id=\"docs-internal-guid-8e8e0eb9-7fff-5bf6-01b7-786dbae86b93\"></strong></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 11
+        },
+        "traits": {
+          "value": [
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "13"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 1400
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Container",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "collapsed": false,
+        "stowing": false
+      },
+      "img": "systems/pf2e/icons/default-icons/backpack.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770459377,
+        "modifiedTime": 1683832986909,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "U93OiMizfozTr2al"
+    },
+    {
+      "name": "Captain's Locker (Type 4)",
+      "type": "backpack",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>must be mounted in a vehicle’s cargo deck</p>\n<p dir=\"ltr\">This iron-banded sea chest is 2-½ feet by 3 feet by 4 feet in size and is decorated with chains and brass skulls. The chest has no lock, but any standard lock can be easily attached to its hasp. The chest can be used to store items within it if it is not mounted in a ship. If it is mounted within the cargo hold of a ship or other cargo-carrying vehicle, the chest warps the dimensions of the cargo hold so that it increases the cargo capacity by 75% without changing the weight of the vehicle.</p>\n<p dir=\"ltr\">If the captain’s locker is removed from the cargo area while the hold contains more cargo than it could contain on its own, any excess cargo is forcibly expelled through hatches or other means of egress.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 13
+        },
+        "traits": {
+          "value": [
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "13"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Container",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "collapsed": false,
+        "stowing": false
+      },
+      "img": "systems/pf2e/icons/default-icons/backpack.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683770459377,
+        "modifiedTime": 1683832986910,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "rgfODF9TsgvFqZJ4"
+    },
+    {
+      "name": "Seeking",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This rune guides your attacks, striking those who would hide from you.</p>\n<p dir=\"ltr\"><strong>Activate</strong> <span class=\"pf2-icon\">F</span> command (mental); <strong>Frequency </strong>Once per day; <strong>Requirements </strong>A creature you are targeting is concealed from you</p>\n<p dir=\"ltr\"><strong>Effect </strong>You automatically succeed on the flat check to hit a concealed creature.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 5
+        },
+        "traits": {
+          "value": [
+            "divination",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {
+        "core": {
+          "sourceId": "Item.vXpFYJX580CsGcya"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683769732964,
+        "modifiedTime": 1683832986911,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "vXpFYJX580CsGcya"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

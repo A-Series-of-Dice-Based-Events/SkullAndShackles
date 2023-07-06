@@ -1,0 +1,693 @@
+{
+  "package": "world.skull-and-shackles-backgrounds",
+  "metadata": {
+    "label": "Skull & Shackles Backgrounds",
+    "type": "Item",
+    "name": "skull-and-shackles-backgrounds",
+    "path": "packs/skull-and-shackles-backgrounds.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-backgrounds",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Ancient Explorer",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You are a student of the ancient history of Golarion, and you’ve come to the Shackles to explore the crumbling and vine-choked ruins of the cyclops empire of Ghol-Gan, which have lain abandoned among the isles of the Shackles for thousands of years.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Society skill and the Ghol-Ghan Lore skill. You gain the Multilingual skill feat, as part of this feat you can learn any one language of your choice that is common or uncommon, and you learn Cyclops.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "con",
+              "int"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "d9pOg": {
+            "uuid": "Compendium.pf2e.feats-srd.P9HCz0uR6xPHuw72",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Multilingual",
+            "level": 1
+          }
+        },
+        "trainedLore": "Ghol-Ghan",
+        "trainedSkills": {
+          "value": [
+            "soc"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683686891692,
+        "modifiedTime": 1683687645896,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "1ulfW4L0Erjzb3ZO"
+    },
+    {
+      "name": "Barroom Talespinner",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You grew up listening to tales of adventure and piracy on the high seas and the sea chanteys of old salts in dockside dives. You learned all about what it’s like to be a pirate by talking with the sailors on shore leave, and learned how to tell a tale (or perform some other pirate entertainment) yourself.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Performance skill, and the Pirates Lore skill. You gain the Virtuosic Performer skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "R8bgE": {
+            "uuid": "Compendium.pf2e.feats-srd.lFwfUvH2708rl6i3",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Virtuosic Performer",
+            "level": 1
+          }
+        },
+        "trainedLore": "Pirates",
+        "trainedSkills": {
+          "value": [
+            "prf"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683686979570,
+        "modifiedTime": 1683687645897,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "NIXHptytf5KR6Sau"
+    },
+    {
+      "name": "Besmara's Blessing",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You were born aboard a ship at sea or down by the docks in a port city on an auspicious day. Old salts and sea dogs nod knowingly and say that Besmara the Pirate Queen, goddess of piracy, sea monsters, and strife, has marked you for a greater destiny. You don’t know anything about that, but you’ve always felt more at home on the sea than on land, and your keen eyes can easily pick out a sail on the distant horizon.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Survival skill and the Sailing Lore skill. You gain the Terrain Expertise skill feat for aquatic terrain.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "int",
+              "wis"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "4NPu8": {
+            "uuid": "Compendium.pf2e.feats-srd.4tTkRyOQ0VuRBac3",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Terrain Expertise",
+            "level": 1
+          }
+        },
+        "trainedLore": "Sailing",
+        "trainedSkills": {
+          "value": [
+            "sur"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687050191,
+        "modifiedTime": 1683687645898,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "fYAxZDylskTofuKq"
+    },
+    {
+      "name": "Buccaneer's Blood",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>One of your ancestors was an infamous Free Captain of the Shackles, whose very name struck fear in the hearts of those who sailed the seas in search of an honest living. Piracy is in your blood, and you’ve always longed to follow in your forebear’s footsteps and plunder the shipping lanes.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Intimidation skill and the Sailing Lore skill. In addition, if you are performing the Influence Infamy downtime activity, you increase the maximum amount of Infamy and Disrepute you gain from a settlement by 1, to the new maximum of 6.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {},
+        "trainedLore": "Sailing",
+        "trainedSkills": {
+          "value": [
+            "itm"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687123778,
+        "modifiedTime": 1683687645899,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "z1ONNFExxHJW3Kyl"
+    },
+    {
+      "name": "Dockside Brawler",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You grew up on the dangerous docks of one of the Shackles’ numerous ports or anchorages, and quickly learned that fists often make a better point than fancy words, especially when used the right way. You’ve always preferred action to talk, anyway.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Athletics skill and the Street Fight Lore skill. In addition, you are trained in brass knuckles and knuckle dusters and gain a +1 circumstance bonus to damage while using them. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in brass knuckles and knuckle dusters. If you are at least an expert in brass knuckles or knuckle dusters, you gain access to the critical specialization effect.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "con",
+              "str"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {},
+        "trainedLore": "Street Fight",
+        "trainedSkills": {
+          "value": [
+            "ath"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687195240,
+        "modifiedTime": 1683687645900,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "cyV8AMl29SijBbDe"
+    },
+    {
+      "name": "Eye for Plunder",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You’ve always had a keen eye for the glitter of gold or silver, and you’ve robbed enough rich merchants and raided enough ships to have a feel for where the most valuable plunder is hidden.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Thievery skill, and a Lore skill for the city you lived in as a thief. You gain the Experienced Professional skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "dex",
+              "wis"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "aV6iP": {
+            "uuid": "Compendium.pf2e.feats-srd.sMm0UfYxEPpq2Yzd",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Experienced Professional",
+            "level": 1
+          }
+        },
+        "trainedLore": "",
+        "trainedSkills": {
+          "value": [
+            "thi"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687264742,
+        "modifiedTime": 1683687645903,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "KT7XI8o1hHnfwuuU"
+    },
+    {
+      "name": "Ilizmagorti Native",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You grew up in the city of Ilizmagorti on Mediogalti Island, a pirate port infamous for both the scoundrels who visit it and the feared Red Mantis assassins who run it. You’ve been around pirates all your life, but you’ve learned to be wary in your dealings with people, as there’s no telling who might be a Red Mantis in disguise.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Society skill and in the Shackles Lore skill. You gain the Streetwise skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "int",
+              "wis"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "cClDl": {
+            "uuid": "Compendium.pf2e.feats-srd.X2jGFfLU5qI5XVot",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Streetwise",
+            "level": 1
+          }
+        },
+        "trainedLore": "Shackles",
+        "trainedSkills": {
+          "value": [
+            "soc"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687323228,
+        "modifiedTime": 1683687645904,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "WGGEpVrN7EML5A1g"
+    },
+    {
+      "name": "Peg Leg",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>One of your legs was bitten off below the knee by a shark when you were just a child, and was replaced with a wooden peg leg. You’ve long since gotten used to your prosthesis, however, and take none of the normal penalties from having a peg leg. You’ve had to learn to deal with the pain of your injury as well, hardening you to it.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Survival skill and the Fishing Lore skill. You gain the Survey Wildlife skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "con",
+              "str"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "bmEnv": {
+            "uuid": "Compendium.pf2e.feats-srd.tGIXuk0XeWmG04CX",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Survey Wildlife",
+            "level": 1
+          }
+        },
+        "trainedLore": "Fishing",
+        "trainedSkills": {
+          "value": [
+            "sur"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687397202,
+        "modifiedTime": 1683687645906,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "zmBzJNpibyYjvWr2"
+    },
+    {
+      "name": "Ship's Surgeon",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>On a ship, a sailor often has to learn multiple skills, and this rule certainly applies to you. Your father was a woodworker, and you learned your first trade from him. But on your first voyage at sea you quickly found out that a carpenter is often a ship’s doctor as well—after all, who knows more about sawing off limbs than someone who saws wood for a living? People are a lot bloodier than wood, that’s for sure, but you haven’t had many complaints—those sailors who have enjoyed your services are either happy to be alive or dead, and there’s old salts who swear the peg legs you made for them are better than the real legs they used to have.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Medicine skill and in the Crafting skill. You gain the Risky Surgery skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "str",
+              "wis"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "m6kGb": {
+            "uuid": "Compendium.pf2e.feats-srd.bkZgWFSFV4cAf5Ot",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Risky Surgery",
+            "level": 1
+          }
+        },
+        "trainedLore": "Crafting",
+        "trainedSkills": {
+          "value": [
+            "med"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687475420,
+        "modifiedTime": 1683687645907,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "ItCvYOFLJ0pGr9VH"
+    },
+    {
+      "name": "Touched by the Sea",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><em>You’ve always felt the call of the sea and your blood surges with the ebb and flow of the tides. Perhaps one of your parents was a sailor or pirate, or maybe one of your ancestors had a bit of aquatic elf or undine blood in them. Whatever the reason, you’re as comfortable in the water as you are on land.</em></p>\n<p dir=\"ltr\">Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.</p>\n<p dir=\"ltr\">You're trained in the Athletics skill, and in the Sailing Lore skill. You gain the Underwater Marauder skill feat.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "traits": {
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "con",
+              "str"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "8qRqv": {
+            "uuid": "Compendium.pf2e.feats-srd.iOY6YfGBaOvMNAor",
+            "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/features/feats/feats.webp",
+            "name": "Underwater Marauder",
+            "level": 1
+          }
+        },
+        "trainedLore": "Sailing",
+        "trainedSkills": {
+          "value": [
+            "ath"
+          ],
+          "custom": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683687555984,
+        "modifiedTime": 1683687645908,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "vvikzJu5B8lDAIVy"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

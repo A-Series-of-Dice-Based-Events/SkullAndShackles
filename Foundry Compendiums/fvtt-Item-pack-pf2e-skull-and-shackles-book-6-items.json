@@ -1,0 +1,474 @@
+{
+  "package": "world.skull-and-shackles-book-6-items",
+  "metadata": {
+    "label": "Skull & Shackles - Book 6 - Items",
+    "type": "Item",
+    "name": "skull-and-shackles-book-6-items",
+    "path": "packs/skull-and-shackles-book-6-items.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-book-6-items",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Crossbow of Retribution",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This <em>+2 greater striking @UUID[Compendium.pf2e.equipment-srd.bP608Wb1l9ZY1zwb]{Repeating Heavy Crossbow}</em> is carved from whalebone decorated with green and gold lacquer, with fittings, lever, and bow of gilded steel. Your attacks with the crossbow deal 1d8 additional damage against creatures with the @UUID[Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX]{Human} trait.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 13
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "repeating-heavy-crossbow",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 2750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 180,
+        "reload": {
+          "value": "1"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 2
+        },
+        "strikingRune": {
+          "value": "greaterStriking"
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1686939639235,
+        "modifiedTime": 1687008301692,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "EMwMKk87Op2TQJpM"
+    },
+    {
+      "name": "Enervating",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you hit with the weapon, add 1d6 negative energy damage to the damage dealt. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:24] or be @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of your next turn (or 1 minute on a critical failure).</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 8
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1686940212314,
+        "modifiedTime": 1687008301694,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "KlLVjTgcDyaMcUDu"
+    },
+    {
+      "name": "Enervating (Greater)",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you hit with the weapon, add 1d6 negative energy damage to the damage dealt. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:36] or be @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of your next turn (or 1 minute on a critical failure).</p>\n<p>Negative energy damage dealt by this weapon ignores the target’s negative energy resistance.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 15
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 6500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1686940389092,
+        "modifiedTime": 1687008301696,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "9X6ZVVb9WD4q8Y56"
+    },
+    {
+      "name": "Hurricane Crown",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">A band of golden skulls encircles this golden crown, and smaller skulls top its points. Forged for the first Hurricane King, Turpin Irons, when he sailed out of the Eye of Abendego more than 100 years ago to claim rulership over the Shackles, the Hurricane Crown has been passed down (or taken by force) from one Hurricane King to the next ever since. You gain a +2 item bonus to Sailing Lore and Survival checks.</p>\n<p dir=\"ltr\">The crown is under the effects of a constant arcane @UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise} spell cast at 7th-level and can appear as any normal piece of headwear.</p>\n<p dir=\"ltr\">In addition, while you are standing on a ship, you can use this crown to enter the rock of Lucrehold through a phase door that allows access to the sea caves and Hidden Harbor beneath the island. This phase door is invisible and is large enough to accommodate the ship you are standing on.</p>\n<p><strong>Activate </strong><span class=\"pf2-icon\">T</span> Cast a Spell; <strong>Frequency </strong>once per day; <strong>Effect </strong>You cast an 8th-level @UUID[Compendium.pf2e.spells-srd.wi405lBjPcbF1DeR]{Punishing Winds} spell with a DC 39. If you are on a ship when you cast this spell, the ship and all creatures aboard it are unaffected by the spell unless you wish to affect them.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "survival",
+            "value": 2,
+            "type": "item"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "sailing lore",
+            "value": 2,
+            "type": "item"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 17
+        },
+        "traits": {
+          "value": [
+            "evocation",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornheadwear"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1686939886617,
+        "modifiedTime": 1687008301701,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "uJypRq653QSuXjOk"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

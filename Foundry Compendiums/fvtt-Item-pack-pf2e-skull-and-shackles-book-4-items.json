@@ -1,0 +1,370 @@
+{
+  "package": "world.skull-and-shackles-book-4-items",
+  "metadata": {
+    "label": "Skull & Shackles - Book 4 - Items",
+    "type": "Item",
+    "name": "skull-and-shackles-book-4-items",
+    "path": "packs/skull-and-shackles-book-4-items.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-book-4-items",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Impossible Bottle",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>placed in the captain’s quarters on a ship</p>\n<p dir=\"ltr\">This glass bottle holds an intricately detailed miniature sailing ship inside of it. When taken aboard an undamaged sailing vehicle at sea, the model slowly reconfigures itself to become a perfect replica of the new ship over the course of 24 hours.</p>\n<p dir=\"ltr\">If the attuned vehicle would gain the @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Broken}condition, the model ship instead becomes broken. This does not restore the vehicle’s hit points, but it allows the vehicle to be used for its normal function and removes the broken condition. If the attuned vehicle begins sinking or is destroyed, the impossible bottle shatters and is destroyed. The model retains the broken condition until the vehicle it is attuned to is completely restored to full hit points. If the vehicle it is attuned to is repaired, but does not regain its full hit points, the model can not prevent the vehicle from gaining the broken condition again.</p>\n<p>If the impossible bottle is removed from a vehicle it is attuned to, and is currently broken, the vehicle it was attuned to is immediately given the broken condition until its full hit points are restored.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 9
+        },
+        "traits": {
+          "value": [
+            "abjuration",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684070009602,
+        "modifiedTime": 1684153409884,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "8hdV5MZ3tJU6wyZj"
+    },
+    {
+      "name": "Scoundrel's Sword Cane",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">This <em>+1 striking sword cane</em> has a hilt made of ivory and carved into a skull and partial backbone. The eyes atop the sword enhance the wielder’s awareness, and grant a +2 item bonus to Perception checks that involve sight. In addition, the weapon can be used to allow the wielder to safely peer over obstacles or around corners.</p>\n<p><strong id=\"docs-internal-guid-b1d2e261-7fff-b816-a95d-dbfca6900946\">Activate</strong> <span class=\"pf2-icon\">A</span> (concentrate, interact); <strong id=\"docs-internal-guid-b1d2e261-7fff-b816-a95d-dbfca6900946\">Effect</strong> You see through the eyes of the skull on the hilt so long as you are holding it. While you are looking through the skull, you are @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}. If you drop the sword cane, you are @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until you hold the weapon again. To end this effect, you must spend an action that has the concentrate trait to revert to your normal senses while holding the weapon.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 10
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "concealable",
+            "divination",
+            "finesse",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": "sword-cane",
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "sword",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684070126419,
+        "modifiedTime": 1684153409888,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "0WpwKeNC85Adof7o"
+    },
+    {
+      "name": "Skeleton Anchor",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>as a ship’s anchor</p>\n<p dir=\"ltr\">This anchor is crafted from fused bones and skulls, but with the hardness of iron. When attached to a ship by a rope or chain and dropped into the water, the anchor causes the vehicle to immediately stop.</p>\n<p dir=\"ltr\">The anchor, when lowered, can also be used to bring forth a grisly crew from the depths.</p>\n<p><strong id=\"docs-internal-guid-762201ac-7fff-dcee-94aa-d560305b952c\">Activate</strong> 10 minutes command (concentrate, interact); <strong>Frequency </strong>Once per week; <strong>Effect</strong> The captain of the ship can summon forth drowned mariners to climb up the anchor and crew the vehicle. The anchor summons a number of @UUID[Compendium.world.mummys-mask-book-1-creatures.8L6bFpSS9cB2TZtO]{Skeleton Guard} equal to the level of the vehicle and they listen to commands given to them by anyone piloting the ship and holding the ship’s wheel. While they are summoned they have no weapons or armor, can not fight, and do nothing to defend themselves, they can only crew the vehicle and do not take part in combat. This skeletal crew remains for one week or until the pilot dismisses them, at which point they abandon the vehicle.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 9
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "10"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 575
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1684070474612,
+        "modifiedTime": 1684153409891,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "l8twV3Jv75rknE1N"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}

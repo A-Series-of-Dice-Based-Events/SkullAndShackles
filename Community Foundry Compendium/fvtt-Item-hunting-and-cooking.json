@@ -1,0 +1,68 @@
+{
+  "name": "Hunting and Cooking",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>If the character has to hunt or slaughter the food as well as cook, all checks for both tasks are made with a -2 circumstance penalty.</p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Hunting and Cooking",
+        "selector": "skill-check",
+        "value": -2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": "hunting-and-cooking",
+    "schema": {
+      "version": 0.84,
+      "lastMigration": null
+    },
+    "traits": {
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 8,
+      "unit": "hours",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/litany-of-depravity.webp",
+  "flags": {
+    "exportSource": {
+      "world": "calaveras-y-grilletes",
+      "system": "pf2e",
+      "coreVersion": "10.291",
+      "systemVersion": "4.12.9"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.12.9",
+    "coreVersion": "10.291",
+    "createdTime": 1686230798477,
+    "modifiedTime": 1686234467190,
+    "lastModifiedBy": "ywYqgJsfbgzwzffH"
+  }
+}

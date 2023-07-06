@@ -1,0 +1,342 @@
+{
+  "package": "world.sns-daily-tasks",
+  "metadata": {
+    "label": "SnS - Daily tasks",
+    "type": "RollTable",
+    "name": "sns-daily-tasks",
+    "path": "packs/sns-daily-tasks.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.sns-daily-tasks",
+    "packageType": "world",
+    "packageName": "calaveras-y-grilletes"
+  },
+  "type": "RollTable",
+  "items": [
+    {
+      "name": "Cook’s Mate Tasks",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "@UUID[Item.y0ytBBFx52vEQkrX]{Hunting and Cooking} </br>\n<strong>Success</strong>: Job is completed. </br>\n<strong>Failure</strong>: Job is failed and results in minor punishment like a verbal reprimand or a rope bash.</br>\n<strong>Critical Failure</strong>: Job is failed and results in severe punishment, like three lashes. The number of lashes increases to six if this is the second such failure in a row, to nine lashes for three failures, increases from there.",
+      "results": [
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            1,
+            2
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "8cAogVcmtyXDu2n4",
+          "text": "Cooking Assisting: Ambrose Kroop in preparing the day’s meal. If Kroop is sober, no check is required. If Kroop is drunk, this requires a @Check[type:Cooking Lore|dc:11] or Check[type:crafting|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "FYdIGUy2DrmGoOHy",
+          "text": "Fishing: Catching tonight’s supper using the ship’s nets. A  @Check[type:Fishing Lore|dc:11] or @Check[type:survival|dc:13] check provides enough fish. A failed check results in a day in the bilges as punishment the following day.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "erLIFhCfhLWtpKJM",
+          "text": "Turtle Hunting: Hunting leatherback sea turtles with harpoons, treble hooks, and nets. A @Check[type:Fishing Lore|dc:11] or @Check[type:survival|dc:13] check provides enough food. A failed check results in a day in the bilges as punishment the following day.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "22UTPAhD4hdkD3Ni",
+          "text": "Bull Session: Drinking with Ambrose Kroop and listening to his stories. The cook’s mate must drink an additional rum ration, but is able to take an additional ship action during the day.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "gzP3BlNNcF9qs7dO",
+          "text": "Special Occasion: Captain Harrigan is celebrating something today, and wants one of the ship’s pigs butchered and cooked for dinner. A character must make a @Check[type:Cooking Lore|dc:11] or @Check[type:survival|dc:13] check to slaughter the animal, then help Kroop to clean, cut, and prepare the carcass. If Kroop is drunk, this requires a @Check[type:Cooking Lore|dc:15] or Check[type:crafting|dc:17] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9",
+        "coreVersion": "10.291",
+        "createdTime": 1686230611126,
+        "modifiedTime": 1686248121250,
+        "lastModifiedBy": "ywYqgJsfbgzwzffH"
+      },
+      "_id": "YPqTKMo3kiZeqQbi"
+    },
+    {
+      "name": "Rigger's Tasks",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<strong>Success</strong>: Job is completed. </br>\n<strong>Failure</strong>: Job is failed and results in minor punishment like a verbal reprimand or a rope bash.</br>\n<strong>Critical Failure</strong>: Job is failed and results in severe punishment, like three lashes. The number of lashes increases to six if this is the second such failure in a row, to nine lashes for three failures, increases from there.",
+      "results": [
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "yG7pypwtUc2RaPMj",
+          "text": "Rigging Repair: The ship’s rigging frequently gets damaged and must be repaired, requiring a @Check[type:athletics|dc:13|traits:action:climb] check to Climb the rigging 30 feet up, followed by a @Check[type:Sailing Lore|dc:11] check or @Check[type:acrobatics|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "bbS8mbG6fOvS6nf0",
+          "text": "Line Work: Hard work hoisting and lowering sails, requiring a @Check[type:Sailing Lore|dc:11] check or @Check[type:acrobatics|dc:13] check. A character must also make a @Check[type:fortitude|dc:17] saving throw to avoid being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "oSEZ0wHpwuX9R3Ss",
+          "text": "Upper Rigging Work: Work in the upper rigging, 50 feet up, requiring a @Check[type:athletics|dc:13|traits:action:climb] check to Climb, followed by a @Check[type:Sailing Lore|dc:11] check or @Check[type:acrobatics|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "tvWISoOtzrZ7O1LW",
+          "text": "Rope Work Handling the ship’s ropes, including coiling them, stowing them, and securing them to cleats and single and double bollards, requiring a @Check[type:Sailing Lore|dc:11] check or @Check[type:acrobatics|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "QxfbJUhS0UfdGsdI",
+          "text": "Lookout: A climb to the crow’s nest 60 feet up, requiring a @Check[type:athletics|dc:13|traits:action:climb] check to Climb followed by a @Check[type:perception|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "Nq7uJe0S8fPSblHS",
+          "text": "Mainsail Duties: Tough work raising and lowering the mainsail, requiring a @Check[type:Sailing Lore|dc:11] check or @Check[type:athletics|dc:13] check. A character must also make a @Check[type:fortitude|dc:17] saving throw to avoid being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9",
+        "coreVersion": "10.291",
+        "createdTime": 1686224447905,
+        "modifiedTime": 1686248121252,
+        "lastModifiedBy": "ywYqgJsfbgzwzffH"
+      },
+      "_id": "BWjk6mmyqHIufUwZ"
+    },
+    {
+      "name": "Swab's Tasks",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<strong>Success</strong>: Job is completed. </br>\n<strong>Failure</strong>: Job is failed and results in minor punishment like a verbal reprimand or a rope bash.</br>\n<strong>Critical Failure</strong>: Job is failed and results in severe punishment, like three lashes. The number of lashes increases to six if this is the second such failure in a row, to nine lashes for three failures, increases from there.",
+      "results": [
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "CuaFwKAblchPdJHJ",
+          "text": "Man the Bilges: Vile and sweaty work cleaning out the bilges, requiring a @Check[type:athletics|dc:17] check. A character must also make a @Check[type:fortitude|dc:17] saving throw to avoid being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "umzZKGDyf9MgaJ0R",
+          "text": "Rat Catcher: Catching rats and other vermin belowdecks, requiring a @Check[type:stealth|dc:13] or @Check[type:survival|dc:13] check to catch and kill enough rats, cockroaches, and beetles for a good day’s work.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "5K3wVPf3WvaUmx9O",
+          "text": "Swab the Decks: Backbreaking work mopping the decks and scrubbing them with sandstone blocks called holystones, requiring a @Check[type:athletics|dc:13] check or @Check[type:fortitude|dc:13] saving throw. Failing the check results in a character being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "BhqBufV3cT9q1Ab3",
+          "text": "Hauling Rope and Knot: Work Tying and untying knots in the ship’s ropes and moving heavy coils of rope from one part of the ship to another, requiring a @Check[type:Sailing Lore|dc:11] check or @Check[type:athletics|dc:13] check. A character must also make a @Check[type:fortitude|dc:13] saving throw to avoid being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "hfIjBrLI88IU9r1B",
+          "text": "Runner: Passing messages to the crew and officers of the Wormwood in all part of the ship except the officers’ cabins,  @Check[type:acrobatics|dc:13] check or @Check[type:fortitude|dc:13] saving throw. Failing the check results in a character being @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} at the end of the shift.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": 0,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "_id": "E5mVcRKovxhUQ8LO",
+          "text": "Repairs: Things constantly tear or break aboard the ship and need repairs, whether sewing sails or splicing rope all day, requiring a  @Check[type:Sailing Lore|dc:11] check or @Check[type:crafting|dc:13] check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9",
+        "coreVersion": "10.291",
+        "createdTime": 1686227420818,
+        "modifiedTime": 1686248121256,
+        "lastModifiedBy": "ywYqgJsfbgzwzffH"
+      },
+      "_id": "5TCQQxSUKdwhdprC"
+    }
+  ],
+  "source": {
+    "world": "calaveras-y-grilletes",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.12.9"
+    }
+  }
+}

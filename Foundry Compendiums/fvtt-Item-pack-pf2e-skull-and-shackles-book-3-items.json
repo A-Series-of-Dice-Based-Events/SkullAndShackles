@@ -1,0 +1,401 @@
+{
+  "package": "world.skull-and-shackles-book-3-items",
+  "metadata": {
+    "label": "Skull & Shackles - Book 3 - Items",
+    "type": "Item",
+    "name": "skull-and-shackles-book-3-items",
+    "path": "packs/skull-and-shackles-book-3-items.db",
+    "system": "pf2e",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.skull-and-shackles-book-3-items",
+    "packageType": "world",
+    "packageName": "mummy-mask"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Charts of the Fair Wind",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>studied during daily preparations</p>\n<p dir=\"ltr\"><strong>Requirements </strong>The charts’ benefits only apply within the geographic region of the Shackles.</p>\n<p dir=\"ltr\">These aged charts of thick, yellowed parchment display rough representations of the Shackles’ major islands and the sea lanes between them. The detailed markings on these charts grant a +1 item bonus on Sailing Lore checks to navigate within the Shackles.</p>\n<p dir=\"ltr\">In addition, a multitude of wrinkles, stains, and blemishes mar the charts’ surfaces. Anyone meticulously studying the charts notices that these markings shift over time. The creases, smudges, and blotches on the map represent real weather conditions (such as clouds, rain, and wind) in the region, allowing an informed observer to determine the current weather patterns over the islands of the Shackles. The charts grant a +2 item bonus on Nature checks made to predict future weather conditions.</p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">T</span>; <strong>Frequency </strong>once per day; <strong>Requirements </strong>You invested the map and plot out a course for a water vehicle that you pilot; <strong>Effect </strong>The pilot must make a Sailing Lore check against the DC of sailing their vehicle. </p>\n<p dir=\"ltr\"><strong>Critical Success</strong> As success, but the bonus is 15%.</p>\n<p dir=\"ltr\"><strong>Success </strong>The vehicle gains a +10% item bonus to its speed so long as it follows the plotted course and doesn’t deviate from it.</p>\n<p dir=\"ltr\"><strong>Failure </strong>No effect.</p>\n<p><strong id=\"docs-internal-guid-def41dee-7fff-ba9c-fc60-64afd9269ebd\"> Critical Failure</strong> The vehicle takes a -5% item penalty to its speed for 24 hours.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 9
+        },
+        "traits": {
+          "value": [
+            "divination",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 575
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683982237751,
+        "modifiedTime": 1684069728884,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "2NdSAVk4UStSBX5d"
+    },
+    {
+      "name": "Jalhazar's Wheel",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage </strong>used as a ship’s wheel</p>\n<p dir=\"ltr\">Handles of polished bone and grim skulls decorate this ornately carved ship’s wheel. When grasped, the wheel’s handles feel comfortably smooth. Those who stand watch at the wheel claim to hear the whispered guidance of Captain Xiribal Jalhazar, and occasionally feel ghostly hands holding the ship’s course true. When fitted to the helm of a ship, Jalhazar’s wheel reduces the penalty from -5 to -3 to your piloting check when taking the Sudden Turn action or the <span class=\"pf2-icon\">T</span> Drive action.</p>\n<p> </p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 9
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "transmutation"
+          ],
+          "rarity": "unique",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "7"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 575
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683982469014,
+        "modifiedTime": 1684069728885,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "5vqqSbyxk7xXP7ys"
+    },
+    {
+      "name": "Ring of the Iron Skull",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\">Crudely cut amethysts and a single engraved skull decorate the band of this thick iron ring. The ring grants its wearer a +2 item bonus to @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic} on magic items and a +2 item bonus on Medicine checks to ascertain details of a dead creature’s demise.</p>\n<p dir=\"ltr\"><strong>Activate</strong> <span class=\"pf2-icon\">T</span> command (mental); <strong>Frequency </strong>Once per day; <strong>Requirements </strong>You touch the ring to a corpse or piece of a corpse, if the body part comes from a creature that’s still alive or undead, the wearer gains no information; <strong id=\"docs-internal-guid-153de6b8-7fff-249f-8cce-0d437b5b8ea8\">Effect</strong> You learn the dead creature’s name, gender, race, and profession or role, as well as the manner of the creature’s death. In addition, you also become aware of the location of other pieces of the corpse if they’re within 1,200 feet.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 9
+        },
+        "traits": {
+          "value": [
+            "divination",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "-"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornring"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683982665702,
+        "modifiedTime": 1684069728886,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "Rx2gwXE08NV6pRJS"
+    },
+    {
+      "name": "Shackles Ensign",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p dir=\"ltr\"><strong>Usage</strong> hoisted as a ship’s flag</p>\n<p dir=\"ltr\">This red-and-black naval ensign displays the grinning skull and crossed manacles of the Shackles. While the flag feels as sleek as silk, the material is stronger than the toughest sail canvas. Openly flying a Shackles ensign improves the initial attitude of most hostile or unfriendly pirates by one step, and worsens the starting attitude of those opposed to piracy by one step. The ensign has no effect when not properly mounted on a ship.</p>\n<p dir=\"ltr\"><strong>Activate </strong><span class=\"pf2-icon\">T</span>, hoist and unfurl the ensign (emotion, mental, visual); <br /><strong>Frequency </strong>Once per day; <strong>Duration </strong>1 minute; <strong>Effect </strong>All non-pirate creatures within 300 feet who are able to see the flag can't reduce their frightened value below 1 while they remain in the area.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.835,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 10
+        },
+        "traits": {
+          "value": [
+            "enchantment",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "otherTags": []
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "4.10.4",
+        "coreVersion": "10.291",
+        "createdTime": 1683982792515,
+        "modifiedTime": 1684069728888,
+        "lastModifiedBy": "hOIBZl3o2fy2SD3w"
+      },
+      "_id": "2a7eQEDU0qWCSzPc"
+    }
+  ],
+  "source": {
+    "world": "mummy-mask",
+    "system": "pf2e",
+    "version": {
+      "core": "10.291",
+      "system": "4.10.4"
+    }
+  }
+}
